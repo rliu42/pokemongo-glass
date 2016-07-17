@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="10" android:orientation="1" android:background="@color/lunar_console_color_cell_background_dark" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:gravity="10" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@id/lunar_console_log_details_icon" android:layout_width="-2" android:layout_height="-2" android:layout_margin="@dimen/lunar_layout_console_entry_margin" android:src="@drawable/lunar_console_icon_log" />
+        <TextView android:id="@id/lunar_console_log_details_message" android:layout_width="0dp" android:layout_height="-2" android:text="Message" android:layout_weight="1.0" style="@style/lunar_console_log_details_message_style" />
+    </LinearLayout>
+    <ScrollView android:layout_width="-1" android:layout_height="0dp" android:layout_margin="@dimen/lunar_layout_console_stacktrace_margin" android:layout_weight="1.0">
+        <TextView android:id="@id/lunar_console_log_details_stacktrace" android:layout_width="-1" android:layout_height="-2" style="@style/lunar_console_log_details_stacktrace_style" />
+    </ScrollView>
+</LinearLayout>

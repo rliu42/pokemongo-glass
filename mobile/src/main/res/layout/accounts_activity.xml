@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff102023" android:layout_width="-1" android:layout_height="-1">
+    <ProgressBar android:id="@id/spinner" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="0x101007a" />
+</RelativeLayout>

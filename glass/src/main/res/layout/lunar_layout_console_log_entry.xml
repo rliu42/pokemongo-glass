@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="10" android:orientation="0" android:id="@id/lunar_console_log_entry_layout" android:background="@color/lunar_console_color_cell_background_dark" android:layout_width="-1" android:layout_height="-2">
+    <ImageView android:id="@id/lunar_console_log_entry_icon" android:layout_width="-2" android:layout_height="-2" android:layout_margin="@dimen/lunar_layout_console_entry_margin" android:src="@drawable/lunar_console_icon_log" />
+    <TextView android:id="@id/lunar_console_log_entry_message" android:layout_width="0dp" android:layout_height="-2" android:text="Message" android:layout_weight="1.0" style="@style/lunar_console_log_details_message_style" />
+</LinearLayout>
